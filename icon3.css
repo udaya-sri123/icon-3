@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height:100%;
+    /* overflow: scroll; */
+}
+.body-shopping{
+    /* border:2px solid; */
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    height:700px;
+    /* justify-content: center; */
+    /* display: inline-block; */
+    margin:5px;
+    /* overflow: hidden; */
+    /* border:3px solid green; */
+
+}
+.shopping{
+    width:300px;
+    height:300px;
+    border:2px solid red;
+    flex-grow: 1;
+}
+img{
+    width:100%;
+    height:100%;
+   
+}
+/* @media  screen and (min-width:890px) {
+    .body-shopping{
+        width:50%;
+    }
+} */
